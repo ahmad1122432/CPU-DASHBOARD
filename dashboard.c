@@ -17,9 +17,9 @@ int main()
     while(1)
     {
         clear_screen();
-        cpu_usage = rand() % 100; // Simulate CPU usage between 0-99%
-        memory_usage = rand() % 100; // Simulate Memory usage between 0-99%
-        processes = rand() % 20; // Simulate number of processes between 1-19
+        cpu_usage = rand() % 100; //    usage between 0-99%
+        memory_usage = rand() % 100; // usage between 0-99%
+        processes = rand() % 20; // number of processes between 1-19
 
         printf("==============================\n");
         printf("   System Dashboard\n");
