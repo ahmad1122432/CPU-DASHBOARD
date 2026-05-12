@@ -2,10 +2,10 @@
 #include<stdlib.h>
 #include<unistd.h>
 
-void clear_screen() {
+void clear_screen() 
+{
     // Clear the console screen
-    system("clear"); // For Unix/Linux systems
-    // system("cls"); // For Windows systems
+    system("clear"); 
 }
 
 int main()
